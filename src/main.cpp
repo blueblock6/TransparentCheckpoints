@@ -41,8 +41,8 @@ class $modify(PlayLayer) {
 	}
 
 	$override
-	void onExit() {
-		PlayLayer::onExit();
+	void startGame() {
+		PlayLayer::startGame();
 		checkpoints.clear();
 		opacities.clear();
 	}
