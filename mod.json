@@ -1,0 +1,46 @@
+{
+	"geode": "3.2.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "blueblock6.transparent_checkpoints",
+	"name": "Transparent Checkpoints",
+	"version": "v1.0.0",
+	"developer": "BlueBlock6",
+	"description": "Allows you to see previous checkpoints in platformer mode and make them fade away",
+	"repository": "https://github.com/blueblock6/TransparentCheckpoint",
+	"settings": {
+		"default": {
+			"type": "int",
+			"default": 100,
+			"min": 0,
+			"max": 100,
+			"control": {
+				"slider": true
+			},
+			"name": "Base Opacity",
+			"description": "The opacity of the latest checkpoint"
+		},
+		"multiplier": {
+			"type": "float",
+			"default": 0.4,
+			"min": 0.0,
+			"max": 1.0,
+			"control": {
+				"slider": true,
+				"slider-step": 0.05
+			},
+			"name": "Multiplier",
+			"description": "Opacity multiplier for previous checkpoints"
+		},
+		"platformer-only": {
+			"type": "bool",
+			"default": false,
+			"name": "Platformer Only",
+			"description": "Only make previous checkpoints transparent in platformer mode"
+		}
+	}
+}
