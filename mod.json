@@ -1,5 +1,5 @@
 {
-	"geode": "3.2.0",
+	"geode": "3.3.0",
 	"gd": {
 		"win": "2.206",
 		"android": "2.206",
@@ -8,7 +8,7 @@
 	},
 	"id": "blueblock6.transparent_checkpoints",
 	"name": "Transparent Checkpoints",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "BlueBlock6",
 	"description": "Allows you to see previous checkpoints in platformer mode and make them fade away",
 	"repository": "https://github.com/blueblock6/TransparentCheckpoints",
