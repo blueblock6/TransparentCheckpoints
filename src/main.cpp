@@ -13,7 +13,7 @@ class $modify(PlayLayer) {
 		int pos = m_checkpointArray->count();
 		CCObject* child;
 		CCARRAY_FOREACH(m_checkpointArray, child) {
-			auto checkpoint = static_cast<CheckpointObject*>(child)->m_physicalCheckpointObject;
+			auto checkpoint = static_cast<CheckpointObject*>(child)->getObject();
 			pos--;
 			opacities[checkpoint] = std::ceil(Mod::get()->getSettingValue<int64_t>("default") * 2.55 * std::pow(Mod::get()->getSettingValue<double>("multiplier"), pos));
 			checkpoint->setOpacity(opacities[checkpoint]);

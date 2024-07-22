@@ -1,3 +1,7 @@
+# 1.0.3
+
+- Fix Android 32 crash
+
 # 1.0.2
 
 - Fix crash when placing more than 50 checkpoints without bypass
