@@ -1,3 +1,7 @@
+# 1.0.4
+
+- 2.2074 Support
+
 # 1.0.3
 
 - Fix Android 32 crash

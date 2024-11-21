@@ -1,17 +1,19 @@
 {
-	"geode": "3.3.0",
+	"geode": "4.0.1",
 	"gd": {
-		"win": "2.206",
-		"android": "2.206",
-		"mac": "2.206",
-		"ios": "2.206"
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
 	},
 	"id": "blueblock6.transparent_checkpoints",
 	"name": "Transparent Checkpoints",
-	"version": "v1.0.3",
+	"version": "v1.0.4",
 	"developer": "BlueBlock6",
-	"description": "Allows you to see previous checkpoints in platformer mode and make them fade away",
-	"repository": "https://github.com/blueblock6/TransparentCheckpoints",
+	"description": "Makes older checkpoints fade away",
+	"links": {
+		"source": "https://github.com/blueblock6/TransparentCheckpoints"
+	},
 	"tags": [
 		"gameplay"
 	],
