@@ -1,3 +1,7 @@
+# 1.0.6
+
+- iOS Support
+
 # 1.0.5
 
 - Fix checkpoints disappearing when off screen in platformer mode and not returning (vanilla bug)
