@@ -8,7 +8,7 @@
 	},
 	"id": "blueblock6.transparent_checkpoints",
 	"name": "Transparent Checkpoints",
-	"version": "v1.0.5",
+	"version": "v1.0.6",
 	"developer": "BlueBlock6",
 	"description": "Makes older checkpoints fade away",
 	"links": {
