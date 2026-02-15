@@ -1,14 +1,14 @@
 {
-	"geode": "4.3.1",
+	"geode": "5.0.0-beta.1",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
 	},
 	"id": "blueblock6.transparent_checkpoints",
 	"name": "Transparent Checkpoints",
-	"version": "v1.0.6",
+	"version": "v1.0.7",
 	"developer": "BlueBlock6",
 	"description": "Makes older checkpoints fade away",
 	"links": {
